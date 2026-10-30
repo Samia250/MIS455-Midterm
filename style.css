@@ -92,3 +92,18 @@ button:hover {
     border-radius: 12px;
     box-shadow: 0 3px 10px #ddd;
 }
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
